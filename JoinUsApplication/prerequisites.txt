@@ -1,0 +1,10 @@
+CREATE TABLE users (
+    email VARCHAR(255) PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+
+create a table;
+add a few users to the table using node_mongo connection included app
+
+then run the application
